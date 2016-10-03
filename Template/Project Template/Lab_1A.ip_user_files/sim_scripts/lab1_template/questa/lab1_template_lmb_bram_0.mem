@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+// Vivado v2016.2 (64-bit)
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+// Created on Monday October 03, 2016 - 01:36:40 pm, from:
+//
+//     Map file     - /fs/student/mgdaily/Documents/ECE153/Lab1A_Project/Lab_1A/Lab_1A.srcs/sources_1/bd/lab1_template/lab1_template.bmm
+//     Data file(s) - /fs/student/mgdaily/Documents/ECE153/Lab1A_Project/Lab_1A/Lab_1A.srcs/sources_1/bd/lab1_template/ip/lab1_template_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'lab1_template_i_microblaze_0.lab1_template_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000
