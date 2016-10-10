@@ -1,0 +1,389 @@
+13:57:14 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:57:25 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:57:38 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:57:42 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:58:05 **** Auto Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+13:58:12 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:58:12 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+13:58:30 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:58:44 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+13:59:21 **** Build of project deletelater_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_5/src
+make -C microblaze_0/libsrc/standalone_v5_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sevenSeg...
+In file included from sevenSeg_selftest.c:3:0:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+Running Make libs in microblaze_0/libsrc/standalone_v5_5/src
+         ^
+make -C microblaze_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling tmrctr
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+13:59:26 **** Build of configuration Debug for project deletelater ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../deletelater_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../deletelater_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: deletelater.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../deletelater_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -o "deletelater.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: deletelater.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size deletelater.elf  |tee "deletelater.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6730	    400	   3240	  10370	   2882	deletelater.elf
+Finished building: deletelater.elf.size
+ 
+13:59:27 **** Auto Build of configuration Debug for project deletelater ****
+make all 
+make: Nothing to be done for `all'.
+13:59:54 **** Build of project deletelater_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_5/src
+make -C microblaze_0/libsrc/standalone_v5_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+Running Make libs in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sevenSeg...
+In file included from sevenSeg_selftest.c:3:0:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^
+Running Make libs in microblaze_0/libsrc/standalone_v5_5/src
+make -C microblaze_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling tmrctr
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+14:01:58 **** Build of project deletelater1_bsp ****
+make -k all 
+Running Make include in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/standalone_v5_5/src
+make -C microblaze_0/libsrc/standalone_v5_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in microblaze_0/libsrc/bram_v4_1/src
+make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling bram
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in microblaze_0/libsrc/cpu_v2_5/src
+make -C microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu
+Running Make libs in microblaze_0/libsrc/gpio_v4_1/src
+make -C microblaze_0/libsrc/gpio_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpio
+Running Make libs in microblaze_0/libsrc/intc_v3_5/src
+make -C microblaze_0/libsrc/intc_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling intc
+Running Make libs in microblaze_0/libsrc/sevenSeg_v1_0/src
+make -C microblaze_0/libsrc/sevenSeg_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sevenSeg...
+In file included from sevenSeg_selftest.c:3:0:
+sevenSeg_selftest.c: In function 'SEVENSEG_Reg_SelfTest':
+sevenSeg.h:46:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+sevenSeg_selftest.c:50:4: note: in expansion of macro 'SEVENSEG_mWriteReg'
+    SEVENSEG_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^
+sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^
+sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^
+Running Make libs in microblaze_0/libsrc/standalone_v5_5/src
+make -C microblaze_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in microblaze_0/libsrc/tmrctr_v4_1/src
+make -C microblaze_0/libsrc/tmrctr_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling tmrctr
+Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartlite
+Finished building libraries
+14:02:14 **** Build of configuration Debug for project deletelater1 ****
+make all 
+Building file: ../src/memory_config_g.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -I../../deletelater1_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+Finished building: ../src/memory_config_g.c
+ 
+Building file: ../src/memorytest.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../deletelater1_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+Finished building: ../src/memorytest.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../deletelater1_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: deletelater1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../deletelater1_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -o "deletelater1.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: deletelater1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size deletelater1.elf  |tee "deletelater1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10946	    420	   1202	  12568	   3118	deletelater1.elf
+Finished building: deletelater1.elf.size
+ 
+14:02:15 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:02:16 **** Incremental Build of configuration Debug for project deletelater1 ****
+make all 
+make: Nothing to be done for `all'.
+14:02:54 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:02:54 **** Incremental Build of configuration Debug for project deletelater1 ****
+make all 
+make: Nothing to be done for `all'.
+14:03:09 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:03:09 **** Incremental Build of configuration Debug for project deletelater1 ****
+make all 
+make: Nothing to be done for `all'.
+14:03:30 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:03:30 **** Incremental Build of configuration Debug for project deletelater1 ****
+make all 
+make: Nothing to be done for `all'.
+14:05:25 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:05:26 **** Incremental Build of configuration Debug for project deletelater1 ****
+make all 
+make: Nothing to be done for `all'.
+14:06:01 **** Auto Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:06:07 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:06:07 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:06:22 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:06:22 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:16:06 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:16:06 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:16:26 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:16:26 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:16:30 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:16:31 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:16:41 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:16:42 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:17:01 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:17:01 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:17:22 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:17:22 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:18:12 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:18:12 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:18:42 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:18:43 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:19:45 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:19:45 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:20:40 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:20:40 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:21:09 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:21:09 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:21:29 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:21:30 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:21:53 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:21:53 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:22:15 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:22:15 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.
+14:22:34 **** Incremental Build of configuration Debug for project Lab1A ****
+make all 
+make: Nothing to be done for `all'.
+14:22:35 **** Incremental Build of configuration Debug for project blah ****
+make all 
+make: Nothing to be done for `all'.

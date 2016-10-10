@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Oct 10 11:07:02 2016
+# Process ID: 2505
+# Current directory: /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.runs/synth_1
+# Command line: vivado -log lab1_template_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source lab1_template_wrapper.tcl
+# Log file: /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.runs/synth_1/lab1_template_wrapper.vds
+# Journal file: /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source lab1_template_wrapper.tcl -notrace

@@ -1,0 +1,489 @@
+Histogram Data for Lab 1A:
+
+
+Seven Segment:
+	1. Print all 0's
+		Bin Size 40
+
+		Bin 0: 1448
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 52
+
+Integer Addition and Multiplication:
+	1. Integer Addition
+		Bin Size 40
+
+		Bin 0: 1467
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 33
+
+	2. Integer Multiplication
+		Bin Size 40
+
+		Bin 0: 1466
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 34
+
+Floating point addition and multiplication
+
+	1. Floating point addition
+		Bin Size 40
+
+		Bin 0: 1356
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 144
+
+	2. Floating point multiplication
+		Bin Size 40
+
+		Bin 0: 1348
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 152
+
+
+Timing of LEDs
+
+	1. Turning LED On:
+		Bin Size 40
+
+		Bin 0: 1417
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 83
+
+	2. Turning LED Off:
+		Bin Size 40
+
+		Bin 0: 1415
+		Bin 1: 0
+		Bin 2: 0
+		Bin 3: 0
+		Bin 4: 0
+		Bin 5: 0
+		Bin 6: 0
+		Bin 7: 0
+		Bin 8: 0
+		Bin 9: 85
+
+Print short
+	
+	1. print(qwerty) 150 times.
+	Bin Size: 552942
+
+	Bin 0: 93
+	Bin 1: 1
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 0
+	Bin 10: 0
+	Bin 11: 0
+	Bin 12: 0
+	Bin 13: 0
+	Bin 14: 0
+	Bin 15: 0
+	Bin 16: 0
+	Bin 17: 0
+	Bin 18: 2
+	Bin 19: 54
+
+	2. print(uiopas) 150 times
+	Bin Size: 559094
+
+	Bin 0: 94
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 0
+	Bin 10: 0
+	Bin 11: 0
+	Bin 12: 0
+	Bin 13: 0
+	Bin 14: 0
+	Bin 15: 0
+	Bin 16: 0
+	Bin 17: 0
+	Bin 18: 4
+	Bin 19: 52
+
+Print Increasing Length
+
+	1. print 12 characters
+	Bin Size: 1162704
+
+	Bin 0: 28
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 5
+	Bin 9: 117
+
+	2. print 24 characters
+	Bin Size: 1201857
+	
+	Bin 0: 49
+	Bin 1: 7
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 10
+	Bin 9: 84
+
+	3. print 36 characters
+	Bin Size: 1281824
+
+	Bin 0: 43
+	Bin 1: 42
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 22
+	Bin 9: 43
+
+	4. print 48 characters
+	Bin Size: 1378159
+
+	Bin 0: 55
+	Bin 1: 44
+	Bin 2: 14
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 3
+	Bin 8: 20
+	Bin 9: 14
+
+	5. Print 60 characters
+	Bin Size: 1386847
+
+	Bin 0: 59
+	Bin 1: 49
+	Bin 2: 33
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 3
+	Bin 9: 6
+
+Print longer string (100 characters)
+
+	Bin Size: 1554408
+	Bin 0: 8
+	Bin 1: 8
+	Bin 2: 3
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 22
+	Bin 7: 60
+	Bin 8: 38
+	Bin 9: 11
+
+Printf short
+
+	1. printf qwerty
+
+	
+Xil_printf short
+	1. qwerty
+	Bin Size: 1119858
+	
+	Bin 0: 94
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 56
+
+	2. uiopas
+
+	Bin Size: 1107725
+	Bin 0: 94
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 56
+
+
+Xil_printf increasing
+
+	1. print 12 characters
+	Bin Size: 1128809
+	Bin 0: 27
+	Bin 1: 1
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 122
+
+	
+
+	2. print 24 characters
+	Bin Size: 1216428
+	Bin 0: 37
+	Bin 1: 19
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 7
+	Bin 9: 8
+	
+
+	3. print 36 characters
+
+	Bin Size: 1267024
+	Bin 0: 48
+	Bin 1: 37
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 18
+	Bin 9: 47
+	
+
+	4. print 48 characters
+	Bin Size: 1354901
+	Bin 0: 51
+	Bin 1: 56
+	Bin 2: 6
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 4
+	Bin 8: 17
+	Bin 9: 16
+	
+
+	5. Print 60 characters
+
+	Bin Size: 1337923
+	Bin 0: 52
+	Bin 1: 59
+	Bin 2: 30
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 2
+	Bin 8: 3
+	Bin 9: 4
+	Done!
+
+Read one byte from memory
+
+
+	Bin Size: 40
+	Bin 0: 1432
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 68
+
+Write one byte to memory
+
+	Bin Size: 40
+	Bin 0: 1444
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 56
+
+Printf
+
+	1. printf qwerty 150 times
+	Bin Size: 1157223
+	Bin 0: 75
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 6
+	Bin 9: 69
+
+	2. printf uiopas 150 times
+	Bin Size: 1131713
+	Bin 0: 75
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 0
+	Bin 9: 75
+
+	3. printf 12 characters 150 times
+	Bin Size: 1107578
+	Bin 0: 10
+	Bin 1: 0
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 5
+	Bin 9: 135
+
+	4. printf 24 characters 
+	Bin Size: 1175004
+	Bin 0: 37
+	Bin 1: 1
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 8
+	Bin 9: 104
+
+	5. printf 36 characters
+	Bin Size: 1235731
+	Bin 0: 46
+	Bin 1: 20
+	Bin 2: 0
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 9
+	Bin 9: 75
+
+	6. printf 48 characters
+	Bin Size: 1364230
+	Bin 0: 5
+	Bin 1: 86
+	Bin 2: 3
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 0
+	Bin 7: 0
+	Bin 8: 6
+	Bin 9: 50
+
+	7. printf 60 characters
+	Bin Size: 1472598
+	Bin 0: 66
+	Bin 1: 11
+	Bin 2: 45
+	Bin 3: 0
+	Bin 4: 0
+	Bin 5: 0
+	Bin 6: 2
+	Bin 7: 14
+	Bin 8: 0
+	Bin 9: 12
+	
+		
+		
+
+	
+
+
+
+		
+
+
+	
+
+

@@ -1,0 +1,876 @@
+14:08:23 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/temp_xsdb_launch_script.tcl
+14:09:04 INFO  : XSDB server has started successfully.
+14:09:05 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf.
+14:12:47 INFO  : Refreshed build settings on project Lab1A
+14:23:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:23:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:23:10 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:27:10 INFO  : Processor reset is completed for microblaze_0
+14:27:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:27:58 INFO  : Processor reset is completed for microblaze_0
+14:28:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:28:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:28:55 INFO  : Processor reset is completed for microblaze_0
+14:32:02 INFO  : Processor reset is completed for microblaze_0
+14:51:22 INFO  : Processor reset is completed for microblaze_0
+14:51:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:52:30 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:52:30 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+14:52:30 ERROR : Disconnect target failed.
+14:52:30 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:53:13 INFO  : Refreshed build settings on project Test
+14:53:37 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:53:37 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:54:29 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:54:30 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:55:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:55:18 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:55:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:55:31 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:56:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:56:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:56:55 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:57:14 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:57:14 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+14:57:23 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:57:23 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+15:04:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '0' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:04:13 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+15:07:04 ERROR : Disconnect target failed.No Target with ID 0 in the System
+
+
+15:07:04 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 0 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+15:07:04 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:10:39 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/temp_xsdb_launch_script.tcl
+15:10:40 INFO  : XSDB server has started successfully.
+15:10:43 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf.
+15:10:44 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_0.
+15:10:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1475791678000,  Project:1475787956000
+15:10:44 INFO  : The hardware specification for project 'lab1_template_wrapper_hw_platform_0' is different from /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf.
+15:10:44 INFO  : Copied contents of /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf into /lab1_template_wrapper_hw_platform_0/system.hdf.
+15:10:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-30518"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_uramos"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-neil_obryan"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-yutongfeng"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-TE5mq3hOE2kF"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-stmccotter"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-gdm"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-xJcFjJwowJiP"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-helique.rSiqgq"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-yutongfeng"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/jetty-0.0.0.0-8161-admin-_admin-any-"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-33152"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-neil_obryan"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-marck"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/jetty-0.0.0.0-8161-demo-_demo-any-"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-32114"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-a2LbAcWQpz4Y"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-stmccotter.fkCFFF"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-marck"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/jetty-0.0.0.0-8161-camel-_camel-any-"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-hkhatra.2b1XZU"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/jna--1908647822"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-jesuscastro.bRnCEN"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-Sas20UChfgrI"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_marck"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-hkhatra"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-wJkJGbZDoKjv"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_hkhatra"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-uramos.9XmAvk"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_hkhatra0"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-3aiqSU8aUZr4"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-32249"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.felix"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-30611"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-34029"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_uramos0"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-uramos"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_stmccotter"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-29909"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_helique"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_marck0"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_activemq"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-Tu8EDd3c2idL"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_helique0"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.esd-32202"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-stmccotter"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_neil_obryan0"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_neil_obryan"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-stmccotter.zdnTwa"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/lost+found"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-jesuscastro"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-marck.r1tnsR"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-neil_obryan.IfgfOt"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-marck.5zJKAl"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-uramos.KE0JWc"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/orbit-helique"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-yutongfeng.Hfzyd1"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/jetty-0.0.0.0-8161-fileserver-_fileserver-any-"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-G87XZorHmBhi"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/pulse-1FrGIfyOuCUd"
+
+15:10:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/.Xil_helique"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-neil_obryan.keHLoz"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-helique"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/hsperfdata_yutongfeng"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/mozilla_stmccotter0"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-uramos"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/virtual-hkhatra.rLOJN3"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/gvfs-metadata-hkhatra"
+
+15:10:45 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+15:10:45 ERROR : Error updating BSP project MSS files.
+15:10:46 INFO  : Updating hardware inferred compiler options for Lab1A.
+15:10:47 INFO  : Updating hardware inferred compiler options for Test.
+15:10:47 INFO  : Clearing existing target manager status.
+15:13:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:13:35 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+15:13:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:13:35 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+15:13:35 ERROR : Failed to closesw "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss"
+Reason: Cannot close sw design '/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+15:13:41 INFO  : Processor reset is completed for microblaze_0
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:03 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:03 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:03 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:03 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+15:14:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:14:43 INFO  : Processor reset is completed for microblaze_0
+15:16:05 INFO  : Processor reset is completed for microblaze_0
+15:29:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:29:45 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+15:29:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:29:45 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+15:29:45 ERROR : Failed to closesw "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss"
+Reason: Cannot close sw design '/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+15:29:49 INFO  : Processor reset is completed for microblaze_0
+15:30:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:30:55 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+15:30:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+15:30:55 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+15:30:55 ERROR : Failed to closesw "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss"
+Reason: Cannot close sw design '/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+15:31:03 INFO  : Processor reset is completed for microblaze_0
+15:34:38 INFO  : Processor reset is completed for microblaze_0
+15:36:15 INFO  : Processor reset is completed for microblaze_0
+15:36:42 INFO  : Processor reset is completed for microblaze_0
+15:37:06 INFO  : Processor reset is completed for microblaze_0
+16:16:08 INFO  : Processor reset is completed for microblaze_0
+16:22:11 INFO  : Processor reset is completed for microblaze_0
+16:24:14 INFO  : Processor reset is completed for microblaze_0
+16:29:19 INFO  : Processor reset is completed for microblaze_0
+16:30:27 INFO  : Processor reset is completed for microblaze_0
+16:31:49 INFO  : Processor reset is completed for microblaze_0
+16:33:14 INFO  : Processor reset is completed for microblaze_0
+16:34:15 INFO  : Processor reset is completed for microblaze_0
+16:37:06 INFO  : Processor reset is completed for microblaze_0
+16:38:55 INFO  : Processor reset is completed for microblaze_0
+16:45:51 INFO  : Processor reset is completed for microblaze_0
+16:46:07 INFO  : Processor reset is completed for microblaze_0
+16:51:43 INFO  : Processor reset is completed for microblaze_0
+16:52:25 INFO  : Processor reset is completed for microblaze_0
+16:52:45 INFO  : Processor reset is completed for microblaze_0
+16:53:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:53:18 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+16:53:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+16:53:18 INFO  : Unable to read in MSS file /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/Lab1A_bsp/system.mss : null
+16:53:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+16:53:19 INFO  : 'fpga -state' command is executed.
+16:53:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:53:19 INFO  : CPU Number not found for processor , defaulting to 0 
+16:53:19 INFO  : Bscan info not found for microblaze  , defaulting to 2 
+16:53:19 INFO  : CPU Number not found for processor , defaulting to 0 
+16:53:19 INFO  : Bscan info not found for microblaze  , defaulting to 2 
+16:53:19 INFO  : Jtag cable 'Digilent Nexys4DDR 210292747152A' is selected.
+16:53:19 INFO  : 'jtag frequency' command is executed.
+16:53:19 ERROR : no targets found with "name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A"". available targets:
+  1* xc7a100t
+     2  Debug Module at USER2
+        3  MicroBlaze #0 (Access denied) (Running)
+16:53:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A"} -index 0
+----------------End of Script----------------
+
+16:53:26 INFO  : Processor reset is completed for microblaze_0
+16:53:53 INFO  : Processor reset is completed for microblaze_0
+16:54:36 INFO  : Processor reset is completed for microblaze_0
+16:54:59 INFO  : Processor reset is completed for microblaze_0
+16:55:52 INFO  : Processor reset is completed for microblaze_0
+16:56:34 INFO  : Processor reset is completed for microblaze_0
+16:57:27 INFO  : Processor reset is completed for microblaze_0
+17:34:49 INFO  : Processor reset is completed for microblaze_0
+17:35:33 INFO  : Processor reset is completed for microblaze_0
+17:36:42 INFO  : Processor reset is completed for microblaze_0
+17:38:34 INFO  : Processor reset is completed for microblaze_0
+17:38:53 INFO  : Processor reset is completed for microblaze_0
+17:39:19 INFO  : Processor reset is completed for microblaze_0
+17:41:40 INFO  : Processor reset is completed for microblaze_0
+17:44:03 INFO  : Processor reset is completed for microblaze_0
+17:45:36 INFO  : Processor reset is completed for microblaze_0
+17:48:22 INFO  : Processor reset is completed for microblaze_0
+17:49:32 INFO  : Processor reset is completed for microblaze_0
+17:51:55 INFO  : Processor reset is completed for microblaze_0
+17:53:54 INFO  : Processor reset is completed for microblaze_0
+17:56:30 INFO  : Processor reset is completed for microblaze_0
+17:59:31 INFO  : Processor reset is completed for microblaze_0
+18:05:42 INFO  : Processor reset is completed for microblaze_0
+18:06:04 INFO  : Processor reset is completed for microblaze_0
+18:07:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:07:19 INFO  : Processor reset is completed for microblaze_0
+18:09:05 INFO  : Processor reset is completed for microblaze_0
+18:09:52 INFO  : Processor reset is completed for microblaze_0
+18:10:18 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+18:10:18 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+18:10:18 ERROR : Disconnect target failed.
+18:10:32 INFO  : Processor reset is completed for microblaze_0
+18:11:33 INFO  : Processor reset is completed for microblaze_0
+18:14:05 INFO  : Processor reset is completed for microblaze_0
+18:14:29 INFO  : Processor reset is completed for microblaze_0
+18:17:22 INFO  : Processor reset is completed for microblaze_0
+18:18:21 INFO  : Processor reset is completed for microblaze_0
+18:18:49 INFO  : Processor reset is completed for microblaze_0
+18:19:31 INFO  : Processor reset is completed for microblaze_0
+18:20:06 INFO  : Processor reset is completed for microblaze_0
+18:21:00 INFO  : Processor reset is completed for microblaze_0
+18:24:01 INFO  : Processor reset is completed for microblaze_0
+18:25:31 INFO  : Processor reset is completed for microblaze_0
+18:44:45 INFO  : Processor reset is completed for microblaze_0
+18:55:26 INFO  : Processor reset is completed for microblaze_0
+18:56:57 INFO  : Processor reset is completed for microblaze_0
+19:02:41 INFO  : Processor reset is completed for microblaze_0
+19:03:02 INFO  : Processor reset is completed for microblaze_0
+19:14:24 INFO  : Processor reset is completed for microblaze_0
+19:14:50 INFO  : Processor reset is completed for microblaze_0
+19:15:34 INFO  : Processor reset is completed for microblaze_0
+19:16:39 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+19:16:39 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 0"
+19:16:39 ERROR : Disconnect target failed.
+19:44:57 INFO  : Processor reset is completed for microblaze_0
+19:45:15 INFO  : Processor reset is completed for microblaze_0
+20:01:11 INFO  : Processor reset is completed for microblaze_0
+20:39:13 INFO  : Processor reset is completed for microblaze_0
+21:22:27 INFO  : Processor reset is completed for microblaze_0
+21:28:12 INFO  : Processor reset is completed for microblaze_0
+22:16:27 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:49:06 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/temp_xsdb_launch_script.tcl
+09:49:09 INFO  : XSDB server has started successfully.
+09:49:13 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf.
+09:49:13 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_0.
+09:51:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:51:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+09:51:56 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+09:52:00 INFO  : Processor reset is completed for microblaze_0
+09:53:20 INFO  : Processor reset is completed for microblaze_0
+09:55:18 INFO  : Processor reset is completed for microblaze_0
+09:56:43 INFO  : Processor reset is completed for microblaze_0
+09:56:58 INFO  : Processor reset is completed for microblaze_0
+09:58:04 INFO  : Processor reset is completed for microblaze_0
+09:59:29 INFO  : Processor reset is completed for microblaze_0
+10:00:40 INFO  : Processor reset is completed for microblaze_0
+10:02:41 INFO  : Processor reset is completed for microblaze_0
+10:04:56 INFO  : Processor reset is completed for microblaze_0
+10:05:32 INFO  : Processor reset is completed for microblaze_0
+10:06:10 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:06:10 ERROR : Timeout occured while waiting to get reply for command "set_cur_system_target"
+10:25:39 INFO  : Processor reset is completed for microblaze_0
+10:26:00 INFO  : Processor reset is completed for microblaze_0
+10:26:37 INFO  : Processor reset is completed for microblaze_0
+10:28:01 INFO  : Processor reset is completed for microblaze_0
+10:28:15 INFO  : Processor reset is completed for microblaze_0
+10:28:58 INFO  : Processor reset is completed for microblaze_0
+10:29:15 INFO  : Processor reset is completed for microblaze_0
+10:29:52 INFO  : Processor reset is completed for microblaze_0
+10:30:22 INFO  : Processor reset is completed for microblaze_0
+10:30:43 INFO  : Processor reset is completed for microblaze_0
+10:31:35 INFO  : Processor reset is completed for microblaze_0
+10:32:06 INFO  : Processor reset is completed for microblaze_0
+10:33:02 INFO  : Processor reset is completed for microblaze_0
+10:34:40 INFO  : Processor reset is completed for microblaze_0
+10:35:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:35:12 INFO  : Processor reset is completed for microblaze_0
+10:36:05 INFO  : Processor reset is completed for microblaze_0
+17:59:00 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/temp_xsdb_launch_script.tcl
+17:59:01 INFO  : XSDB server has started successfully.
+17:59:02 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab1A/Lab1A_Project/Lab_1A_Project_Files/Lab_1A.sdk/lab1_template_wrapper.hdf.
+17:59:02 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_0.
+11:20:19 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+11:20:20 INFO  : XSDB server has started successfully.
+11:20:22 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+11:21:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:21:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+11:21:11 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+11:21:31 INFO  : Processor reset is completed for microblaze_0
+11:33:55 INFO  : Processor reset is completed for microblaze_0
+11:34:16 INFO  : Processor reset is completed for microblaze_0
+11:34:24 INFO  : Processor reset is completed for microblaze_0
+11:34:30 INFO  : Processor reset is completed for microblaze_0
+11:34:37 INFO  : Processor reset is completed for microblaze_0
+11:34:54 INFO  : Processor reset is completed for microblaze_0
+11:35:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+11:35:23 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+11:35:34 INFO  : Processor reset is completed for microblaze_0
+11:36:17 INFO  : Processor reset is completed for microblaze_0
+11:36:29 INFO  : Processor reset is completed for microblaze_0
+11:36:38 INFO  : Processor reset is completed for microblaze_0
+11:36:56 INFO  : Processor reset is completed for microblaze_0
+11:37:11 INFO  : Processor reset is completed for microblaze_0
+11:38:52 INFO  : Processor reset is completed for microblaze_0
+11:38:58 INFO  : Processor reset is completed for microblaze_0
+11:39:33 INFO  : Processor reset is completed for microblaze_0
+11:41:30 INFO  : Processor reset is completed for microblaze_0
+11:41:34 INFO  : Processor reset is completed for microblaze_0
+11:41:45 INFO  : Processor reset is completed for microblaze_0
+11:42:28 INFO  : Processor reset is completed for microblaze_0
+11:43:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:43:03 INFO  : Processor reset is completed for microblaze_0
+11:43:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:44:00 INFO  : Processor reset is completed for microblaze_0
+11:44:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:45:09 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+11:45:31 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+11:45:31 ERROR : Timeout occured while waiting to get reply for command "xreset 0 0x80"
+11:45:31 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:455)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+11:45:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+11:45:53 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+11:45:56 INFO  : Processor reset is completed for microblaze_0
+12:22:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:22:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:22:30 INFO  : Processor reset is completed for microblaze_0
+12:22:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:22:50 INFO  : Processor reset is completed for microblaze_0
+12:22:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:23:00 INFO  : Processor reset is completed for microblaze_0
+12:23:10 INFO  : Processor reset is completed for microblaze_0
+12:39:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:39:14 INFO  : Processor reset is completed for microblaze_0
+13:24:19 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:25:03 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+13:25:05 INFO  : XSDB server has started successfully.
+13:25:06 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+13:25:07 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_1.
+13:30:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:31:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:37:30 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+13:37:31 INFO  : XSDB server has started successfully.
+13:37:32 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+13:37:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:37:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+13:37:59 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_2/download.bit"
+13:40:06 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:44:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+13:44:59 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_2/download.bit"
+13:45:02 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:46:32 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:48:23 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:50:36 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:51:41 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:52:30 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:53:00 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:53:10 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:53:22 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+13:53:23 INFO  : XSDB server has started successfully.
+13:53:24 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+13:53:24 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_2.
+13:53:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:53:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+13:53:40 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_2/download.bit"
+13:53:48 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:54:12 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:55:23 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:57:26 INFO  : Processor reset is completed for microblaze_0
+13:57:38 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:58:13 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:59:54 ERROR : Failed to call write_mss 
+Reason: ERROR: [Common 17-176] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/deletelater_bsp/system.mss]
+
+14:02:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:02:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:02:46 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:02:55 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:147)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:618)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:655)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:707)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:578)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:03:10 INFO  : Processor reset is completed for microblaze_0
+14:03:31 INFO  : Processor reset is completed for microblaze_0
+14:04:26 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:04:44 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+14:04:45 INFO  : XSDB server has started successfully.
+14:04:52 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+14:04:53 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_1.
+14:05:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:05:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:05:15 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:05:29 INFO  : Processor reset is completed for microblaze_0
+14:06:08 INFO  : Processor reset is completed for microblaze_0
+14:06:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:06:26 INFO  : Processor reset is completed for microblaze_0
+14:16:07 INFO  : Processor reset is completed for microblaze_0
+14:16:27 INFO  : Processor reset is completed for microblaze_0
+14:16:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:34 INFO  : Processor reset is completed for microblaze_0
+14:16:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:16:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:16:58 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:17:02 INFO  : Processor reset is completed for microblaze_0
+14:17:23 INFO  : Processor reset is completed for microblaze_0
+14:17:23 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:17:23 ERROR : Timeout occured while waiting to get reply for command "close_terminal"
+14:17:23 ERROR : Error while closing JTAG UART server: 
+14:18:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:18:05 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:18:12 INFO  : Processor reset is completed for microblaze_0
+14:18:43 INFO  : Processor reset is completed for microblaze_0
+14:19:06 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:19:17 INFO  : Launching XSDB server: xsdb -n -interactive /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/temp_xsdb_launch_script.tcl
+14:19:18 INFO  : XSDB server has started successfully.
+14:19:19 INFO  : Processing command line option -hwspec /fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper.hdf.
+14:19:19 INFO  : Checking for hwspec changes in the project lab1_template_wrapper_hw_platform_1.
+14:19:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:19:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292747152A" && level==0} -index 0' command is executed.
+14:19:38 INFO  : FPGA configured successfully with bitstream "/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.sdk/lab1_template_wrapper_hw_platform_0/download.bit"
+14:19:48 INFO  : Processor reset is completed for microblaze_0
+14:20:41 INFO  : Processor reset is completed for microblaze_0
+14:21:10 INFO  : Processor reset is completed for microblaze_0
+14:21:30 INFO  : Processor reset is completed for microblaze_0
+14:21:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:21:56 INFO  : Processor reset is completed for microblaze_0
+14:22:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:22:17 INFO  : Processor reset is completed for microblaze_0
+14:22:28 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:22:28 ERROR : Timeout occured while waiting to get reply for command "set_cur_system_target"
+14:22:35 INFO  : Processor reset is completed for microblaze_0
+14:32:23 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
