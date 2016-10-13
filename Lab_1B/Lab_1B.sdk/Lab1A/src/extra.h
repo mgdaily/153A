@@ -1,4 +1,5 @@
 #include "xtmrctr.h"
+#include "xgpio.h"
 #include "xintc.h"
 #include "xparameters.h"
 #include "xtmrctr_l.h"
@@ -7,7 +8,7 @@
 #include <xbasic_types.h>
 #include <xio.h>
 
-#define PUSHBUTTON_DEVICE_ID XPAR_XPS_GPIO_0_DEVICE_ID
+#define PUSHBUTTON_DEVICE_ID XPAR_BTNS_DEVICE_ID
 #define PUSHBUTTON_INTERRUPT_ID XPAR_XPS_INTC_0_XPS_GPIO_0_IP2INTC_IRPT_INTR
 #define PUSHBUTTON_MASK XPAR_XPS_GPIO_0_IP2INTC_IRPT_MASK
 

@@ -1,4 +1,4 @@
-13:29:01 **** Build of project blah_bsp ****
+16:41:34 **** Auto Build of project blah_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
@@ -44,10 +44,10 @@ sevenSeg.h:66:5: warning: implicit declaration of function 'Xil_In32' [-Wimplici
      Xil_In32((BaseAddress) + (RegOffset))
      ^
 sevenSeg_selftest.c:52:9: note: in expansion of macro 'SEVENSEG_mReadReg'
-    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
-         ^
 Running Make libs in microblaze_0/libsrc/standalone_v5_5/src
+    if ( SEVENSEG_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
 make -C microblaze_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
+         ^
 Compiling standalone
 Running Make libs in microblaze_0/libsrc/tmrctr_v4_1/src
 make -C microblaze_0/libsrc/tmrctr_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
@@ -57,5 +57,5 @@ make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER
 Compiling uartlite
 Finished building libraries
 
-13:29:10 Build Finished (took 9s.18ms)
+16:41:38 Build Finished (took 4s.331ms)
 

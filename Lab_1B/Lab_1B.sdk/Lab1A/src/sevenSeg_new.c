@@ -29,19 +29,19 @@ void sevenseg_draw_digit (int position, int value)
    	Xil_Out32(XPAR_SEVENSEG_0_S00_AXI_BASEADDR, combined_mask);
 }
 
-int main(void)
-{
-	extra_method();
-
-	int seconds[4], fractions[4];
-
-	while(1)
-	{
-		for (int i=1; i<10000; i++)
-		{
-			sevenseg_draw_digit(i, digit_segs[0]);
-		}
-
-
-	}
-}
+//int main(void)
+//{
+//	extra_method();
+//
+//	int seconds[4], fractions[4];
+//
+//	while(1)
+//	{
+//		for (int i=1; i<10000; i++)
+//		{
+//			sevenseg_draw_digit(i, digit_segs[0]);
+//		}
+//
+//
+//	}
+//}

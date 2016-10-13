@@ -2,13 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="GPIO" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="XIntc"/>
+			<item value="GPIO"/>
+			<item value="INTR"/>
+			<item value="BTNS"/>
+			<item value="PUSH"/>
+			<item value="XPAR_XPS_INTC_0_XPS_GPIO_0_IP2INTC_IRPT_INTR"/>
+			<item value="ID XPAR_XPS_INTC_0_XPS_GPIO_0_IP2INTC_IRPT_INTR"/>
+			<item value="intrmask"/>
+			<item value="IntrMask"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -17,7 +24,7 @@
 		<item value="287" key="DIALOG_WIDTH"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="408" key="DIALOG_HEIGHT"/>
-		<item value="819" key="DIALOG_X_ORIGIN"/>
-		<item value="245" key="DIALOG_Y_ORIGIN"/>
+		<item value="1131" key="DIALOG_X_ORIGIN"/>
+		<item value="207" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -1,4 +1,4 @@
-13:51:11 **** Build of project Lab1A_bsp ****
+16:07:23 **** Build of project Lab1A_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
@@ -17,7 +17,6 @@ make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPI
 Running Make libs in microblaze_0/libsrc/bram_v4_1/src
 make -C microblaze_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
 Compiling bram
-mb-ar: creating ../../../lib/libxil.a
 Running Make libs in microblaze_0/libsrc/cpu_v2_5/src
 make -C microblaze_0/libsrc/cpu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.6 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g"
 Compiling cpu
@@ -38,5 +37,5 @@ make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER
 Compiling uartlite
 Finished building libraries
 
-13:51:16 Build Finished (took 4s.483ms)
+16:07:28 Build Finished (took 4s.863ms)
 

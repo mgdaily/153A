@@ -1,0 +1,47 @@
+20:17:22 **** Auto Build of configuration Debug for project Interrupt_Test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Interrupt_Test_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.6 -mno-xl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/extra.h:8:0,
+                 from ../src/helloworld.c:2:
+../../Interrupt_Test_bsp/microblaze_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../Interrupt_Test_bsp/microblaze_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/helloworld.c:2:0:
+../src/helloworld.c: In function 'GpioHandler':
+../src/extra.h:13:25: error: 'XPAR_XPS_GPIO_0_IP2INTC_IRPT_MASK' undeclared (first use in this function)
+ #define PUSHBUTTON_MASK XPAR_XPS_GPIO_0_IP2INTC_IRPT_MASK
+                         ^
+../src/helloworld.c:66:32: note: in expansion of macro 'PUSHBUTTON_MASK'
+  XGpio_InterruptClear(GpioPtr, PUSHBUTTON_MASK);
+                                ^
+../src/extra.h:13:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define PUSHBUTTON_MASK XPAR_XPS_GPIO_0_IP2INTC_IRPT_MASK
+                         ^
+../src/helloworld.c:66:32: note: in expansion of macro 'PUSHBUTTON_MASK'
+  XGpio_InterruptClear(GpioPtr, PUSHBUTTON_MASK);
+                                ^
+../src/helloworld.c: In function 'extra_method':
+../src/extra.h:12:33: error: 'XPAR_XPS_INTC_0_XPS_GPIO_0_IP2INTC_IRPT_INTR' undeclared (first use in this function)
+ #define PUSHBUTTON_INTERRUPT_ID XPAR_XPS_INTC_0_XPS_GPIO_0_IP2INTC_IRPT_INTR
+                                 ^
+../src/helloworld.c:120:27: note: in expansion of macro 'PUSHBUTTON_INTERRUPT_ID'
+  XIntc_Connect(&sys_intc, PUSHBUTTON_INTERRUPT_ID,
+                           ^
+../src/helloworld.c:225:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void)
+     ^
+../src/helloworld.c:230:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/helloworld.c:230:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+
+20:17:22 Build Finished (took 123ms)
+

@@ -10,12 +10,12 @@
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/ies"/>
-    <Option Name="CompiledLibDirVCS" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="/fs/student/mgdaily/Documents/ECE153/Lab_1B/Lab_1B.cache/compile_simlib/activehdl"/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -53,40 +53,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_dlmb_v10_0/lab1_template_dlmb_v10_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_dlmb_bram_if_cntlr_0/lab1_template_dlmb_bram_if_cntlr_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_lmb_bram_0/lab1_template_lmb_bram_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_microblaze_0_axi_intc_0/lab1_template_microblaze_0_axi_intc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_microblaze_0_xlconcat_0/lab1_template_microblaze_0_xlconcat_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_mdm_1_0/lab1_template_mdm_1_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_xbar_0/lab1_template_xbar_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_clk_wiz_1_0/lab1_template_clk_wiz_1_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_rst_clk_wiz_1_100M_0/lab1_template_rst_clk_wiz_1_100M_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_axi_timer_0_0/lab1_template_axi_timer_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_ilmb_v10_0/lab1_template_ilmb_v10_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_sevenSeg_0_0/lab1_template_sevenSeg_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_mig_7series_0_0/lab1_template_mig_7series_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_rst_mig_7series_0_81M_0/lab1_template_rst_mig_7series_0_81M_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_microblaze_0_axi_periph_0/lab1_template_microblaze_0_axi_periph_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_microblaze_0_0/lab1_template_microblaze_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_ilmb_bram_if_cntlr_0/lab1_template_ilmb_bram_if_cntlr_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="hdl/lab1_template.v"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_axi_gpio_0_0/lab1_template_axi_gpio_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_axi_gpio_0_1/lab1_template_axi_gpio_0_1.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="hw_handoff/lab1_template.hwh"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="hdl/lab1_template.hwdef"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="hw_handoff/lab1_template_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_cc_0/lab1_template_auto_cc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_pc_0/lab1_template_auto_pc_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_us_0/lab1_template_auto_us_0.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="lab1_template.bmm"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="lab1_template_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_3/lab1_template_auto_ds_3.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_1/lab1_template_auto_ds_1.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_5/lab1_template_auto_ds_5.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_2/lab1_template_auto_ds_2.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_4/lab1_template_auto_ds_4.xci"/>
-        <CompFileExtendedInfo CompFileName="lab1_template.bd" FileRelPathName="ip/lab1_template_auto_ds_0/lab1_template_auto_ds_0.xci"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/lab1_template/hdl/lab1_template_wrapper.v">
         <FileInfo>
